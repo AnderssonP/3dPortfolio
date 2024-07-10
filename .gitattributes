@@ -1,0 +1,2 @@
+src/assets/textures/clouds_baseColor.png filter=lfs diff=lfs merge=lfs -text
+src/assets/earth_with_mountains_and_atmosphere.glb filter=lfs diff=lfs merge=lfs -text

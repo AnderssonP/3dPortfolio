@@ -4,18 +4,8 @@ import { imageHome } from "../constants"
 
 
 const Home = () => {
-    const [currentSlide, setCurrentSlide] = useState(1); 
-
-    const nextSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide === 3 ? 1 : prevSlide + 1));
-    };
-
-    const prevSlide = () => {
-        setCurrentSlide((prevSlide) => (prevSlide === 1 ? 3 : prevSlide - 1));
-    };
-
     return (
-        <section className='max-container text-center'>
+        <section className='mt-40 text-center'>
             <h1 className='head-text '>
                 Welcome to my <span className='blue-gradient_text font-semibold drop-shadow '>Portfolio</span>
             </h1>
@@ -25,20 +15,8 @@ const Home = () => {
             </div>
 
             <div className='mt-10'>
-                <div >
-                    {imageHome.map((imageComp) => (
-                        <div className='flex justify-center '>
-                            <img src={imageComp.image} alt="" />
-                        </div>
-                    ))}
-                </div>
                 <div className='carousel-container'>
-                    <HomeInfo currentStage={currentSlide} />
-                </div>
-
-                <div className='flex justify-center mt-4'>
-                    <button className='px-4 py-2 bg-blue-500 text-white rounded-md mr-4 mt-10' onClick={prevSlide}>Previous</button>
-                    <button className='px-4 py-2 bg-blue-500 text-white rounded-md mt-10' onClick={nextSlide}>Next</button>
+                    <HomeInfo />
                 </div>
             </div>
         </section>
@@ -46,3 +24,4 @@ const Home = () => {
 }
 
 export default Home;
+

@@ -1,6 +1,7 @@
 import { Route, BrowserRouter as Router, Routes } from "react-router-dom";
 import Navbar from "./components/Navbar";
 import { Home, About, Projects, Contact } from "./pages"
+import { Analytics } from "@vercel/analytics/react"
 
 const App = () => {
     return (

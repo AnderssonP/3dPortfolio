@@ -15,6 +15,18 @@ html, body {
   font-family: "Work Sans", sans-serif;
 }
 
+.info-box {
+  transition: transform 0.3s ease-out;
+}
+
+.zoom-in {
+  transform: scale(1.1);
+  z-index: 1;
+}
+
+.info-box:not(.zoom-in) {
+  filter: blur(2px);
+}
 
 body:has(.card[data-color="blue"]:hover) {
   background-color: rgb(var(--blue-rgb) / 25%);
@@ -170,12 +182,10 @@ body:has(.card[data-color="green"]:hover) {
 
 /* Neo Brutalism */
 .neo-brutalism-blue {
-  background: #2b77e7;
   position: relative;
   border-radius: 10px;
   border: #2b77e7;
-  box-shadow: 0.6vmin 0.6vmin #336cc1, 1vmin 1vmin #0092db, 1vmin 1vmin #0092db,
-    0.65vmin 1vmin #0092db, 1vmin 0.65vmin #0092db;
+  box-shadow: 2px 2px  black
 }
 
 .neo-brutalism-white {

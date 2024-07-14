@@ -21,7 +21,8 @@ import {
     springboot,
     developer,
     docker,
-    azure
+    azure,
+    estate
 } from "../assets/icons";
 
 export const skills = [
@@ -94,7 +95,13 @@ export const skills = [
         imageUrl: azure,
         name: "Azure",
         type: "Backend",
-    }
+    },
+    {
+        imageUrl: estate,
+        name: "Flutter",
+        type: "Frontend",
+    },
+
 ];
 
 export const experiences = [
@@ -123,7 +130,7 @@ export const experiences = [
         company_name: "CDON",
         icon: CDON,
         iconBg: "#b7e4c7",
-        date: "Jun 2018 - Dec 2023",
+        date: "Jun 2018 - Dec 2024",
         points: [
             "Worked as a Customer Service Representative, developing strong communication and problem-solving skills. Interacted with customers through email, phone, and live chat. Enriched software development career by fostering a user-centric approach. Enhanced ability to create intuitive interfaces and anticipate user needs. Background in customer service ensures software developed is functional and responsive to user feedback"
         ],

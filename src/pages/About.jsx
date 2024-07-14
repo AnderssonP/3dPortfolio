@@ -12,7 +12,7 @@ const About = () => {
       </h1>
 
       <div className='mt-5 flex flex-col gap-3 text-slate-500'>
-        <p>I'm a self-driven and proactive Software Engineer based in Malmö, Sweden. I excel at efficiently and effectively solving complex tasks. With a specialization in Java and C#, I bring a strong technical skill set and a passion for developing innovative solutions. I am a graduate of Grit Academy, where I learned my problem-solving abilities and developed a keen eye for detail. I thrive in dynamic environments and am always eager to take on new challenges and expand my skills.</p>
+        <p>I'm self-driven and proactive Software Engineer based in Malmö, Sweden. I excel at efficiently and effectively solving complex tasks. With a specialization in Java and C#, I bring a strong technical skill set and a passion for developing innovative solutions. I am a graduate of Grit Academy, where I learned my problem-solving abilities and developed a keen eye for detail. I thrive in dynamic environments and am always eager to take on new challenges and expand my skills.</p>
       </div>
 
       <div className='py-10 flex flex-col'>

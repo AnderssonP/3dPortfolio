@@ -23,6 +23,8 @@ import dotnet from "./dotnet-svgrepo-com.svg"
 import java from "./java-svgrepo-com.svg"
 import springboot from "./icons8-spring-boot.svg"
 import developer from "./programmer-software-engineer-coder-software-developer-svgrepo-com.svg"
+import server from "./server.svg"
+import client from "./client.svg"
 
 export {
     css,
@@ -49,5 +51,7 @@ export {
     dotnet,
     java,
     springboot,
-    developer
+    developer,
+    server,
+    client
 }

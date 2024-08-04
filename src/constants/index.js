@@ -22,7 +22,9 @@ import {
     developer,
     docker,
     azure,
-    estate
+    estate,
+    server,
+    client
 } from "../assets/icons";
 
 export const skills = [
@@ -156,6 +158,20 @@ export const socialLinks = [
 ];
 
 export const projects = [
+    {
+        iconUrl: client,
+        theme: 'btn-back-red',
+        name: 'User authentication Client',
+        description: 'handle inputs from site and send it to the server',
+        link: 'https://github.com/AnderssonP/UserClient',
+    },
+    {
+        iconUrl: server,
+        theme: 'btn-back-red',
+        name: 'User authentication Server',
+        description: 'Server that works with user client and handle the data you get from the client and save to postgres db',
+        link: 'https://github.com/AnderssonP/UserServer',
+    },
     {
         iconUrl: data,
         theme: 'btn-back-red',

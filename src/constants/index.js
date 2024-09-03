@@ -158,7 +158,7 @@ export const projects = [
         theme: 'btn-back-orange',
         name: 'Task API',
         description: 'API to handle tasks, written in java and springboot. Get task, delete task, path task and create task',
-        link: 'https://github.com/AnderssonP/UserClient',
+        link: 'https://github.com/AnderssonP/TaskAPI',
     },
     {
         iconUrl: data,

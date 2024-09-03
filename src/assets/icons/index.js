@@ -25,6 +25,7 @@ import springboot from "./icons8-spring-boot.svg"
 import developer from "./programmer-software-engineer-coder-software-developer-svgrepo-com.svg"
 import server from "./server.svg"
 import client from "./client.svg"
+import task from "./task-svgrepo-com.svg"
 
 export {
     css,
@@ -53,5 +54,6 @@ export {
     springboot,
     developer,
     server,
-    client
+    client,
+    task
 }

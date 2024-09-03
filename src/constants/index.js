@@ -23,7 +23,8 @@ import {
     docker,
     azure,
     server,
-    client
+    client,
+    task
 } from "../assets/icons";
 
 export const skills = [
@@ -153,6 +154,20 @@ export const socialLinks = [
 
 export const projects = [
     {
+        iconUrl: task,
+        theme: 'btn-back-orange',
+        name: 'Task API',
+        description: 'API to handle tasks, written in java and springboot. Get task, delete task, path task and create task',
+        link: 'https://github.com/AnderssonP/UserClient',
+    },
+    {
+        iconUrl: data,
+        theme: 'btn-back-red',
+        name: 'Data search and manipulation',
+        description: 'A backend program written in C# with the intention to search for data in 3 different files, manipulate it, and send it to the user.',
+        link: 'https://github.com/AnderssonP/internProjectPlugAndTrade',
+    },
+    {
         iconUrl: client,
         theme: 'btn-back-yellow',
         name: 'User authentication Client',
@@ -167,25 +182,11 @@ export const projects = [
         link: 'https://github.com/AnderssonP/UserServer',
     },
     {
-        iconUrl: data,
-        theme: 'btn-back-red',
-        name: 'Data search and manipulation',
-        description: 'A backend program written in C# with the intention to search for data in 3 different files, manipulate it, and send it to the user.',
-        link: 'https://github.com/AnderssonP/internProjectPlugAndTrade',
-    },
-    {
         iconUrl: pricewise,
         theme: 'btn-back-green',
         name: 'Payment API',
         description: 'Payment API that sends a payment to PayPal, and when the payment goes through, you receive an email. Written with Durable Functions in Azure and C#.',
         link: 'https://github.com/AnderssonP/PayApi',
-    },
-    {
-        iconUrl: car,
-        theme: 'btn-back-blue',
-        name: 'Quiz game',
-        description: 'A simple quiz written for a company to play and answer questions ranging in difficulty from 1 to 5 in different categories. Written in React and JavaScript',
-        link: 'https://github.com/AnderssonP/quiz',
     },
 ];
 

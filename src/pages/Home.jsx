@@ -14,7 +14,7 @@ const Home = () => {
             </h1>            
 
             <div className='mt-2 flex flex-col gap-3 text-slate-500'>               
-                <p>Here you can find my work experience, my projects and you can also contact me</p>
+                <p>Here you can find my work experience and my projects</p>
             </div>
             <Spline></Spline>
         </section>

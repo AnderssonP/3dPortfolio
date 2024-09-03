@@ -1,6 +1,5 @@
 import {projects} from "../constants";
 import { Link } from 'react-router-dom'
-import CTA from "../components/CTA"
 
 const Projects = () => {
   return (
@@ -46,7 +45,6 @@ const Projects = () => {
       </div>
 
       <hr className="border-slate-200"/>
-      <CTA/>
       </section>
   )
 }
